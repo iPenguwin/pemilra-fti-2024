@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Debat",
+    "date": "27-30 Mei 2024",
+    "description": "Debat PEMILRA adalah sebuah acara yang diselenggarakan selama masa kampanye PEMILRA, di mana kandidat bertemu dan berdebat tentang isu penting yang relevan dalam PEMILRA tersebut."
+  },
+  {
+    "id": 2,
+    "title": "Masa Tenang",
+    "date": "30 Mei - 4 Juni 2024",
+    "description": "Masa tenang adalah periode waktu sebelum pelaksanaan pemilihan umum di mana semua aktivitas kampanye, termasuk pemasangan iklan, publikasi survei pemilihan, dan kegiatan kampanye lainnya, dihentikan."
+  },
+  {
+    "id": 3,
+    "title": "Pemungutan Suara",
+    "date": "5 - 7 Juni 2024",
+    "description": "Pemungutan suara adalah proses di mana mahasiswa FTI yang memenuhi syarat untuk memilih diberikan hak untuk memberikan suara mereka dalam pemilihan umum."
+  },
+  {
+    "id": 4,
+    "title": "Pengumuman Hasil",
+    "date": "8 Juni 2023",
+    "description": "Pengumuman hasil adalah tahap akhir dari sebuah pemilihan umum di mana hasil akhir dari pemilihan umum diumumkan kepada publik."
+  }
+  
+]
