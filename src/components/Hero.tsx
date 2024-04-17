@@ -7,13 +7,12 @@ const Hero = () => {
   return (
     <>
       <div className="hero min-h-screen bg-[url('/images/bg2024.webp')]">
-        <div className="min hero absolute inset-0 z-10 w-full ">
+        <div className="min hero absolute inset-0 z-10 grid w-full">
           <div className="title_animate -mt-72 flex items-center justify-between">
-            <div className="lightning_left">
+            <div className="lightning_left ml-2 ">
               <div
                 style={{
                   transformStyle: "preserve-3d",
-                  // transform: "rotateY(-30deg) rotateX(15deg)",
                 }}
                 className="lighting_1 h-32 w-96 bg-[url('/images/petir/shadow/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
@@ -36,7 +35,6 @@ const Hero = () => {
               <div
                 style={{
                   transformStyle: "preserve-3d",
-                  // transform: "rotateY(-30deg) rotateX(15deg)",
                 }}
                 className="lighting_2 mt-20 h-20 w-60 bg-[url('/images/petir/shadow/2.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
@@ -57,7 +55,7 @@ const Hero = () => {
                 ></motion.div>
               </div>
             </div>
-            <div className="middle -ml-28 mr-6">
+            <div className="middle -ml-28 mr-10">
               <div className="pemilu_raya">
                 <div
                   style={{
@@ -93,7 +91,7 @@ const Hero = () => {
                   ></motion.div>
                 </div>
               </div>
-              <div className="fti_2024">
+              <div className="fti_2024 -mt-26">
                 <div
                   style={{
                     transformStyle: "preserve-3d",
@@ -129,7 +127,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="lightning_right">
+            <div className="lightning_right -mr-32 ">
               <div
                 style={{
                   transformStyle: "preserve-3d",
@@ -178,7 +176,7 @@ const Hero = () => {
           </div>
           <div className="hero-content z-50 text-center">
             <div className="mt-52 flex flex-col items-center justify-center">
-              <p className="py-6 font-newsweekly text-3xl tracking-[0.1em] text-[#032960]">
+              <p className="py-6 font-newsweekly text-3xl text-[#032960]">
                 “Redefining Leadership: Empowering Servant Leaders, Creating
                 <br />
                 Impactful Change”
