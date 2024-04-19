@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <>
       <div className="hero min-h-screen bg-[url('/images/bg2024.webp')]">
-        <div className="min hero absolute inset-0 z-10 grid w-full">
-          <div className="title_animate -mt-72 flex items-center justify-between">
-            <div className="lightning_left ml-2 ">
+        <div className="min hero inset-0 z-10 -mt-44 grid w-full">
+          <div className="title_animates -mt-36 flex items-center justify-between">
+            <div className="lightning_left">
               <div
                 style={{
                   transformStyle: "preserve-3d",
@@ -55,7 +55,7 @@ const Hero = () => {
                 ></motion.div>
               </div>
             </div>
-            <div className="middle -ml-28 mr-10">
+            <div className="middle justify-between">
               <div className="pemilu_raya">
                 <div
                   style={{
@@ -80,18 +80,18 @@ const Hero = () => {
                       duration: 2,
                       ease: "easeInOut",
                     }}
-                    className="h-full w-full bg-cover bg-no-repeat"
+                    className="bg-[url('/images/title/pemilu_raya.webp')] bg-no-repeat"
                     style={{
-                      backgroundImage: `url('/images/title/pemilu_raya.webp')`,
+                      // backgroundImage: `url('/images/title/pemilu_raya.webp')`,
                       backgroundSize: "contain",
-                      backgroundPosition: "center",
+                      // backgroundPosition: "center",
                       height: "100%",
                       width: "100%",
                     }}
                   ></motion.div>
                 </div>
               </div>
-              <div className="fti_2024 -mt-26">
+              <div className="fti_2024 -mt-12">
                 <div
                   style={{
                     transformStyle: "preserve-3d",
@@ -115,11 +115,11 @@ const Hero = () => {
                       duration: 2,
                       ease: "easeInOut",
                     }}
-                    className="h-full w-full bg-cover bg-no-repeat"
+                    className="bg-[url('/images/title/fti_uajy.webp')] bg-no-repeat"
                     style={{
-                      backgroundImage: `url('/images/title/fti_uajy.webp')`,
+                      // backgroundImage: `url('/images/title/fti_uajy.webp')`,
                       backgroundSize: "contain",
-                      backgroundPosition: "center",
+                      // backgroundPosition: "center",
                       height: "100%",
                       width: "100%",
                     }}
@@ -127,7 +127,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="lightning_right -mr-32 ">
+            <div className="lightning_right">
               <div
                 style={{
                   transformStyle: "preserve-3d",
@@ -176,10 +176,8 @@ const Hero = () => {
           </div>
           <div className="hero-content z-50 text-center">
             <div className="mt-52 flex flex-col items-center justify-center">
-              <p className="py-6 font-newsweekly text-3xl text-[#032960]">
-                “Redefining Leadership: Empowering Servant Leaders, Creating
-                <br />
-                Impactful Change”
+              <p className="relative py-6 font-newsweekly text-3xl text-[#032960]">
+                “Redefining Leadership: Empowering Servant Leaders, Creating Impactful Change”
               </p>
               <button
                 className="btn-primary btn"
