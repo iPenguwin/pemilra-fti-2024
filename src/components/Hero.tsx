@@ -1,197 +1,220 @@
 // import { teaserRef } from "../recoil/atoms";
 // import { useRecoilValue } from "recoil";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
+import React, { useRef } from "react";
+
+import "./hero_animation.css";
 
 const Hero = () => {
   // const ref = useRecoilValue(teaserRef);
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
+  const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
     <>
-      <div className="hero min-h-screen bg-[url('/images/bg2024.webp')]">
-        <div className="min hero inset-0 z-10 -mt-44 grid w-full">
-          <div className="title_animates -mt-36 flex items-center justify-between">
-            <div className="lightning_left">
-              <div
-                style={{
-                  transformStyle: "preserve-3d",
-                }}
-                className="lighting_1 h-32 w-96 bg-[url('/images/petir/shadow/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-              >
-                <motion.div
-                  initial={{
-                    transform: "translateZ(8px) translateY(-2px)",
-                  }}
-                  animate={{
-                    transform: "translateZ(32px) translateY(-8px)",
-                  }}
-                  transition={{
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    duration: 2,
-                    ease: "easeInOut",
-                  }}
-                  className="h-32 w-96 bg-[url('/images/petir/image/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-                ></motion.div>
-              </div>
-              <div
-                style={{
-                  transformStyle: "preserve-3d",
-                }}
-                className="lighting_2 mt-20 h-20 w-60 bg-[url('/images/petir/shadow/2.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-              >
-                <motion.div
-                  initial={{
-                    transform: "translateZ(8px) translateY(-2px)",
-                  }}
-                  animate={{
-                    transform: "translateZ(32px) translateY(-8px)",
-                  }}
-                  transition={{
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    duration: 2,
-                    ease: "easeInOut",
-                  }}
-                  className="h-20 w-60 bg-[url('/images/petir/image/2.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-                ></motion.div>
-              </div>
-            </div>
-            <div className="middle justify-between">
-              <div className="pemilu_raya">
-                <div
-                  style={{
-                    transformStyle: "preserve-3d",
-                    height: "20vh",
-                    width: "40vw",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <motion.div
-                    initial={{
-                      transform: "translateZ(8px) translateY(-2px)",
-                    }}
-                    animate={{
-                      transform: "translateZ(32px) translateY(-8px)",
-                    }}
-                    transition={{
-                      repeat: Infinity,
-                      repeatType: "mirror",
-                      duration: 2,
-                      ease: "easeInOut",
-                    }}
-                    className="bg-[url('/images/title/pemilu_raya.webp')] bg-no-repeat"
+      <div ref={ref} className="relative grid h-screen w-full place-items-center overflow-hidden">
+        <motion.div
+          initial={{
+            transform: "translateZ(8px) translateY(-2px)",
+          }}
+          animate={{
+            transform: "translateZ(32px) translateY(-8px)",
+          }}
+          transition={{
+            repeat: Infinity,
+            repeatType: "mirror",
+            duration: 2,
+            ease: "easeInOut",
+          }}
+          className="animasi_judul relative z-10 md:text-9xl"
+        >
+          <div className="flex flex-row justify-center">
+            <div className="petir_kiri -mt-12">
+              <div className="petir_kiri1" style={{ position: "relative", right: "-50%" }}>
+                <div style={{ maxWidth: "20%", maxHeight: "50vh" }}>
+                  <img
+                    src="/images/petir/image/1.webp"
                     style={{
-                      // backgroundImage: `url('/images/title/pemilu_raya.webp')`,
-                      backgroundSize: "contain",
-                      // backgroundPosition: "center",
-                      height: "100%",
-                      width: "100%",
+                      position: "absolute",
+                      top: "-3.5%",
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                      filter: "drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.3))",
                     }}
-                  ></motion.div>
+                  />
+                </div>
+                <div style={{ maxWidth: "40%", maxHeight: "100vh" }}>
+                  <img
+                    src="/images/petir/shadow/1.webp"
+                    style={{
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
                 </div>
               </div>
-              <div className="fti_2024 -mt-12">
-                <div
-                  style={{
-                    transformStyle: "preserve-3d",
-                    height: "20vh",
-                    width: "40vw",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <motion.div
-                    initial={{
-                      transform: "translateZ(8px) translateY(-2px)",
-                    }}
-                    animate={{
-                      transform: "translateZ(32px) translateY(-8px)",
-                    }}
-                    transition={{
-                      repeat: Infinity,
-                      repeatType: "mirror",
-                      duration: 2,
-                      ease: "easeInOut",
-                    }}
-                    className="bg-[url('/images/title/fti_uajy.webp')] bg-no-repeat"
+              <div
+                className="petir_kiri2"
+                style={{ position: "relative", right: "-50%", top: "40%" }}
+              >
+                <div style={{ maxWidth: "20%", maxHeight: "50vh" }}>
+                  <img
+                    src="/images/petir/image/2.webp"
                     style={{
-                      // backgroundImage: `url('/images/title/fti_uajy.webp')`,
-                      backgroundSize: "contain",
-                      // backgroundPosition: "center",
-                      height: "100%",
-                      width: "100%",
+                      position: "absolute",
+                      top: "-10%",
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                      filter: "drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.3))",
                     }}
-                  ></motion.div>
+                  />
+                </div>
+                <div style={{ maxWidth: "40%", maxHeight: "50vh" }}>
+                  <img
+                    src="/images/petir/shadow/2.webp"
+                    style={{
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
                 </div>
               </div>
             </div>
-            <div className="lightning_right">
+
+            <div className="judul_mid">
               <div
                 style={{
-                  transformStyle: "preserve-3d",
+                  maxWidth: "90vw",
+                  maxHeight: "50vh",
+                  marginTop: "-10%",
                 }}
-                className="lighting_3 h-20 w-60 bg-[url('/images/petir/shadow/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
-                <motion.div
-                  initial={{
-                    transform: "translateZ(8px) translateY(-2px)",
+                <img
+                  src="/images/title/pemilu_raya.webp"
+                  alt="Pemilu Raya"
+                  style={{
+                    maxHeight: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
                   }}
-                  animate={{
-                    transform: "translateZ(32px) translateY(-8px)",
-                  }}
-                  transition={{
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    duration: 2,
-                    ease: "easeInOut",
-                  }}
-                  className="h-20 w-60 bg-[url('/images/petir/image/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-                ></motion.div>
+                />
               </div>
               <div
                 style={{
-                  transformStyle: "preserve-3d",
+                  maxWidth: "90vw",
+                  maxHeight: "45vh",
                 }}
-                className="lighting_4 mt-16 h-32 w-96 bg-[url('/images/petir/shadow/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
-                <motion.div
-                  initial={{
-                    transform: "translateZ(8px) translateY(-2px)",
+                <img
+                  src="/images/title/fti_uajy.webp"
+                  alt="Pemilu Raya"
+                  style={{
+                    maxHeight: "100%",
+                    maxWidth: "100%",
+                    objectFit: "contain",
                   }}
-                  animate={{
-                    transform: "translateZ(32px) translateY(-8px)",
-                  }}
-                  transition={{
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    duration: 2,
-                    ease: "easeInOut",
-                  }}
-                  className="h-32 w-96 bg-[url('/images/petir/image/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
-                ></motion.div>
+                />
+              </div>
+            </div>
+
+            <div className="petir_kanan -mt-5 ml-4">
+              <div className="petir_kanan1" style={{ position: "relative" }}>
+                <div style={{ maxWidth: "40%", maxHeight: "50vh" }}>
+                  <img
+                    src="/images/petir/image/3.webp"
+                    style={{
+                      position: "absolute",
+                      top: "-8%",
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                      filter: "drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.3))",
+                    }}
+                  />
+                </div>
+                <div style={{ maxWidth: "45%", maxHeight: "100vh" }}>
+                  <img
+                    src="/images/petir/shadow/3.webp"
+                    style={{
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="petir_kanan2" style={{ position: "relative", top: "40%" }}>
+                <div style={{ maxWidth: "20%", maxHeight: "50vh" }}>
+                  <img
+                    src="/images/petir/image/4.webp"
+                    style={{
+                      position: "absolute",
+                      top: "-3%",
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                      filter: "drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.3))",
+                    }}
+                  />
+                </div>
+                <div style={{ maxWidth: "43%", maxHeight: "100vh" }}>
+                  <img
+                    src="/images/petir/shadow/4.webp"
+                    style={{
+                      maxHeight: "100%",
+                      maxWidth: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
               </div>
             </div>
           </div>
-          <div className="hero-content z-50 text-center">
-            <div className="mt-52 flex flex-col items-center justify-center">
-              <p className="relative py-6 font-newsweekly text-3xl text-[#032960]">
-                “Redefining Leadership: Empowering Servant Leaders, Creating Impactful Change”
-              </p>
-              <button
-                className="btn-primary btn"
-                onClick={() =>
-                  document.getElementById("teaser")?.scrollIntoView({ behavior: "smooth" })
-                }
-              >
-                Read More
-              </button>
-            </div>
+        </motion.div>
+        <div className="judul_tema hero-content z-50 -mt-20 text-center">
+          <div className="-mt-96 flex flex-col items-center justify-center">
+            <p className="relative py-6 font-newsweekly text-3xl text-[#032960]">
+              “Redefining Leadership: Empowering Servant Leaders, Creating Impactful Change”
+            </p>
+            <button
+              className="btn-primary btn"
+              onClick={() =>
+                document.getElementById("teaser")?.scrollIntoView({ behavior: "smooth" })
+              }
+            >
+              Read More
+            </button>
           </div>
-          {/* <div className="inset absolute min-h-screen w-full bg-gradient-to-b from-[#022960]/0 to-[#022960]/90"></div> */}
         </div>
+        <motion.div
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: `url(/images/black_people.webp), url(/images/bgonly.webp)`,
+            backgroundPosition: "bottom",
+            backgroundSize: "cover",
+            marginBottom: "-rem",
+            y: backgroundY,
+          }}
+        />
+        <div
+          className="absolute inset-0 z-20"
+          style={{
+            backgroundImage: `url(/images/paper_bawah.webp)`,
+            backgroundPosition: "bottom",
+            backgroundSize: "cover",
+            marginBottom: "-2.5rem",
+          }}
+        />
       </div>
+      {/* <div className="inset absolute min-h-screen w-full bg-gradient-to-b from-[#022960]/0 to-[#022960]/90"></div> */}
     </>
   );
 };
