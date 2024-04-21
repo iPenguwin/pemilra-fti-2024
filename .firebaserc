@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "pemilra-fti-uajy"
-  }
+    "default": "pemilra-fti-2024",
+    "pemilra-2024": "pemilra-fti-2024"
+  },
+  "targets": {},
+  "etags": {}
 }
