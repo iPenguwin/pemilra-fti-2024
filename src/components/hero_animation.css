@@ -1,0 +1,56 @@
+.size_animation,
+.size_animation_layer {
+  height: 1000px;
+}
+
+#title1 {
+  background-image: url(/images/title/pemilu_raya.webp);
+  position: relative;
+}
+
+#title2 {
+  background-image: url(/images/title/fti_uajy.webp);
+  position: relative;
+}
+
+#lighting1 {
+  background-image: url(/images/petir/images/1.webp);
+}
+
+#lighting2 {
+  background-image: url(/images/petir/images/2.webp);
+}
+
+#lighting3 {
+  background-image: url(/images/petir/images/3.webp);
+}
+
+#lighting4 {
+  background-image: url(/images/petir/images/4.webp);
+}
+
+#shadow1 {
+  background-image: url(/images/petir/shadow/1.webp);
+}
+
+#shadow2 {
+  background-image: url(/images/petir/shadow/2.webp);
+}
+
+#shadow3 {
+  background-image: url(/images/petir/shadow/3.webp);
+}
+
+#shadow4 {
+  background-image: url(/images/petir/shadow/4.webp);
+}
+
+.animasi_judul_container {
+  position: relative;
+}
+
+.animasi_judul {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
