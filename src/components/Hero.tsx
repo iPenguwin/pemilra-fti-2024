@@ -8,13 +8,13 @@ const Hero = () => {
     <>
       <div className="hero min-h-screen bg-[url('/images/bg2024.webp')]">
         <div className="min hero absolute inset-0 z-10 grid w-full">
-          <div className="title_animate -mt-72 flex items-center justify-between">
-            <div className="lightning_left ml-2 ">
+          <div className="title_animate -mt-44 flex items-center justify-between">
+            <div className="hidden lg:block lightning_left ml-2">
               <div
                 style={{
                   transformStyle: "preserve-3d",
                 }}
-                className="lighting_1 h-32 w-96 bg-[url('/images/petir/shadow/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                className="lighting_1 w-32 h-32 lg:w-96 w-64 bg-[url('/images/petir/shadow/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
                 <motion.div
                   initial={{
@@ -29,14 +29,14 @@ const Hero = () => {
                     duration: 2,
                     ease: "easeInOut",
                   }}
-                  className="h-32 w-96 bg-[url('/images/petir/image/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                  className="w-32 h-32 lg:w-96 bg-[url('/images/petir/image/1.webp')] bg-contain bg-no-repeat drop-shadow-lg"
                 ></motion.div>
               </div>
               <div
                 style={{
                   transformStyle: "preserve-3d",
                 }}
-                className="lighting_2 mt-20 h-20 w-60 bg-[url('/images/petir/shadow/2.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                className="lighting_2 mt-20 h-20 lg:w-60 bg-[url('/images/petir/shadow/2.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
                 <motion.div
                   initial={{
@@ -55,17 +55,17 @@ const Hero = () => {
                 ></motion.div>
               </div>
             </div>
-            <div className="middle -ml-28 mr-10">
+            <div className="middle lg:-ml-28 lg:mr-10">
               <div className="pemilu_raya">
                 <div
                   style={{
                     transformStyle: "preserve-3d",
                     height: "20vh",
-                    width: "40vw",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                   }}
+                  className="w-[80vw] lg:w-[40vw] -mt-20 lg:mt-0"
                 >
                   <motion.div
                     initial={{
@@ -96,11 +96,11 @@ const Hero = () => {
                   style={{
                     transformStyle: "preserve-3d",
                     height: "20vh",
-                    width: "40vw",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                   }}
+                  className="w-[80vw] lg:w-[40vw] -mt-12 lg:mt-0"
                 >
                   <motion.div
                     initial={{
@@ -127,12 +127,12 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="lightning_right -mr-32 ">
+            <div className="hidden lg:block lightning_right">
               <div
                 style={{
                   transformStyle: "preserve-3d",
                 }}
-                className="lighting_3 h-20 w-60 bg-[url('/images/petir/shadow/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                className="lighting_3 w-32 h-20 lg:w-60 bg-[url('/images/petir/shadow/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
                 <motion.div
                   initial={{
@@ -147,14 +147,14 @@ const Hero = () => {
                     duration: 2,
                     ease: "easeInOut",
                   }}
-                  className="h-20 w-60 bg-[url('/images/petir/image/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                  className="w-32 h-20 lg:w-60 bg-[url('/images/petir/image/3.webp')] bg-contain bg-no-repeat drop-shadow-lg"
                 ></motion.div>
               </div>
               <div
                 style={{
                   transformStyle: "preserve-3d",
                 }}
-                className="lighting_4 mt-16 h-32 w-96 bg-[url('/images/petir/shadow/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                className="lighting_4 mt-16 h-32 w-52 bg-[url('/images/petir/shadow/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
               >
                 <motion.div
                   initial={{
@@ -169,7 +169,7 @@ const Hero = () => {
                     duration: 2,
                     ease: "easeInOut",
                   }}
-                  className="h-32 w-96 bg-[url('/images/petir/image/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
+                  className="h-32 w-52 bg-[url('/images/petir/image/4.webp')] bg-contain bg-no-repeat drop-shadow-lg"
                 ></motion.div>
               </div>
             </div>

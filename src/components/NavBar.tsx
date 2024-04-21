@@ -1,8 +1,8 @@
 const NavBar = () => {
     return (
         <>
-            <div className="navbar relative z-20 flex items-center justify-between px-2 lg:px-32 py-4">
-                <button className="btn-ghost btn-lg btn h-16 w-16 p-2 lg:h-20 lg:w-20">
+            <div className="navbar relative z-20 flex items-center justify-between px-2 lg:px-32">
+                <button className="btn-ghost btn-lg btn h-16 w-16 p-1">
                     <img src="/images/pemilra.png"></img>
                 </button>
                 <ul className="menu menu-horizontal hidden gap-12 lg:flex">
