@@ -1,7 +1,7 @@
 // import { teaserRef } from "../recoil/atoms";
 // import { useRecoilValue } from "recoil";
 import { motion, useScroll, useTransform } from "framer-motion";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 import "./hero_animation.css";
 
@@ -13,7 +13,7 @@ const Hero = () => {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
+  // const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
   return (
     <>
       <div ref={ref} className="relative grid h-screen w-full place-items-center overflow-hidden">

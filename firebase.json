@@ -1,7 +1,13 @@
 {
   "hosting": {
-    "site": "pemilra-fti-uajy-2024",
+    "site": "tes-web-pemilra01111",
     "public": "dist",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }

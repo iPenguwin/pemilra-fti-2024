@@ -1,210 +1,210 @@
 [
-    {
+  {
+    "id": 1,
+    "name": "SEMA",
+    "kandidat": [
+      {
         "id": 1,
-        "name": "SEMA",
-        "kandidat": [
-            {
-                "id": 1,
-                "name": "Aaron Risang Panji Bharata",
-                "visi": [
-                    "Menciptakan SEMA FTI UAJY sebagai wadah pengembangan karakter dan solidaritas antar mahasiswa FTI UAJY berlandaskan Pancasila dan Empat Pilar Keatmajayaan."
-                ],
-                "misi": [
-                    "Menjadikan SEMA FTI UAJY sebagai wadah penyaluran aspirasi mahasiswa FTI UAJY",
-                    "Meningkatkan hubungan yang positif antar mahasiswa FTI dengan kegiatan-kegiatan yang komunikatif dan inspiratif sehingga terciptanya solidaritas dan rasa empati tetrhadap sesama.",
-                    "Meningkatkan keterlibatan mahasiswa FTI dengan program kerja yang dibuat sehingga berkembangnya minat dan bakat serta rasa tanggungjawab."
-                ],
-                "foto": "/images/SEMA_1.png",
-                "video": "https://www.youtube.com/embed/bwM66NpfikM",
-                "jumlah_vote": 204
-            },
-            {
-                "id": 2,
-                "name": "Novella Jestine Estrelita",
-                "visi": [
-                    "Mewujudkan SEMA FTI sebagai lembaga yang solid, komunikatif, dan menjunjung tinggi empat pilar keatmajayaan serta menjadi wadah pengembangan potensi di bidang non-akademik sesuai dengan kemampuan diri mahasiswa FTI UAJY."
-                ],
-                "misi": [
-                    "Mewujudkan kepengurusan Senat Mahasiswa FTI yang berkualitas.",
-                    "Memberikan fasilitas bagi seluruh mahasiswa FTI untuk mengembangkan potensi diri di bidang non-akademik.",
-                    "Menjadi jembatan komunikasi, aspirasi, dan meningkatkan solidaritas mahasiswa FTI melalui program kerja Senat Mahasiswa FTI."
-                ],
-                "foto": "/images/SEMA_2.png",
-                "video": "https://www.youtube.com/embed/039KkRgMIl0",
-                "jumlah_vote": 174
-            },
-            {
-                "id": 3,
-                "name": "Alphonsus Dio Yuan Ananda",
-                "visi": [
-                    "Menjadikan Senat Mahasiswa Fakultas Teknologi Industri Universitas Atma Jaya Yogyakarta, sebagai wadah bagi mahasiswa Fakultas Teknologi Industri untuk dapat mengembangkan soft skill melalui kegiatan-kegiatan yang akan dilaksanakan oleh Senat Mahasiswa Fakultas Teknologi Industri yang berlandaskan kepada 4 pilar keatmajayaan, yaitu unggul, inklusif, humanis, dan berintegritas."
-                ],
-                "misi": [
-                    "Melibatkan seluruh mahasiswa Fakultas Teknologi Industri dalam kegiatan-kegiatan yang akan dilaksanakan oleh Senat Mahasiswa Fakultas Teknologi Industri.",
-                    "Memberikan kebebasan bagi seluruh mahasiswa Fakultas Teknologi Industri untuk menyampaikan aspirasinya demi mengembangkan rasa berani berpendapat.",
-                    "Menciptakan rasa solidaritas bagi seluruh mahasiswa Fakultas Teknologi Industri demi terciptanya rasa kekeluargaan dalam lingkungan Fakultas Teknologi Industri."
-                ],
-                "foto": "/images/SEMA_3.png",
-                "video": "https://www.youtube.com/embed/cZ12wosqQno",
-                "jumlah_vote": 161
-            }
-        ]
-    },
-    {
+        "name": "Al. Hangger Setiadi",
+        "visi": [
+          "Menjadikan SEMA FTI UAJY sebagai sahabat seperjalanan bagi para mahasiswa dengan semangat fraternitas dan solidaritas yang dilandasi 4 pilar keatmajayaan."
+        ],
+        "misi": [
+          "Membangun relasi internal SEMA dan warga FTI yang supportif dan apresiatif.",
+          "Mengembangkan daya karya dan karsa setiap anggota SEMA.",
+          "Mewujudkan warga FTI yang aktif dan partisipatif melalui proker dan kegiatan SEMA yang ada.",
+          "Melanjutkan dan mengembangkan proker sema yang sudah berjalan selama ini."
+        ],
+        "foto": "/images/SEMA_1.png",
+        "video": "https://www.youtube.com/embed/bwM66NpfikM",
+        "jumlah_vote": 0
+      },
+      {
         "id": 2,
-        "name": "HIMAFORKA",
-        "kandidat": [
-            {
-                "id": 1,
-                "name": "Pasha Rakha Paruntung",
-                "visi": [
-                    "Membangun Himpunan Mahasiswa Informatika yang unggul, inklusif, humanis, dan berintegritas serta berkontribusi langsung dalam memajukan organisasi dan universitas."
-                ],
-                "misi": [
-                    "Mengoptimalkan fasilitas dan sumber daya manusia yang dimiliki untuk memperkuat manajemen organisasi",
-                    "Mendukung perkembangan prodi Informatika dan kesejahteraan mahasiswa melalui",
-                    "Mendorong dan mewadahi mahasiswa untuk mengembangkan potensi, kemampuan, serta kreativitas mahasiswa.",
-                    "Memperkuat hubungan dengan berbagai pihak seperti universitas, organisasi-organisasi kemahasiswaan, dan instansi lainnya untuk meningkatkan dukungan dan peluang bagi mahasiswa."
-                ],
-                "foto": "/images/HIMAFORKA_1.png",
-                "video": "https://www.youtube.com/embed/5OeeWseF6P0",
-                "jumlah_vote": 69
-            },
-            {
-                "id": 2,
-                "name": "Fabian Alexander Pramana",
-                "visi": [
-                    "MEMBANGUN HIMAFORKA SEBAGAI SARANA MEWUJUDKAN MAHASISWA INFORMATIKA UAJY YANG SOLID SERTA SEBAGAI SARANA PENGEMBANGAN AKADEMIK DAN POTENSI DIRI DENGAN BERLANDASKAN NILAI-NILAI KEATMAJAYAAN AGAR BERMANFAAT BAGI SESAMA."
-                ],
-                "misi": [
-                    "Menjalin kerja sama dengan pihak internal HIMAFORKA maupun pihak eksternal untuk mendukung terlaksananya program kerja yang bermanfaat bagi berbagai pihak",
-                    "Menjaga kualitas kepengurusan anggota HIMAFORKA dengan mengutamakan tanggung jawab, profesionalitas, dan integritas.",
-                    "Terbuka terhadap setiap aspirasi untuk meningkatkan kualitas kerja HIMAFORKA.",
-                    "Melaksanakan berbagai program kerja yang mendukung pengembangan akademik dan potensi diri.",
-                    "Memberikan pelayanan serta berdampak bagi seluruh mahasiswa Informatika UAJY maupun masyarakat luas."
-                ],
-                "foto": "/images/HIMAFORKA_2.png",
-                "video": "https://www.youtube.com/embed/TPhH91pvCzg",
-                "jumlah_vote": 43
-            },
-            {
-                "id": 3,
-                "name": "Ariel Sompie",
-                "visi": ["HIMAFORKA sebagai wadah aspirasi yang ada hanya untuk melayani mahasiswa."],
-                "misi": [
-                    "Meningkatkan capaian IPK mahasiswa melalui tunjangan pembelajaran yang efektif",
-                    "Mewadai jiwa bersaing mahasiswa untuk berprestasi di bangku perkuliahan.",
-                    "Memperkuat minat mahasiswa kepada Informatika melalui event-event yang inspiratif.",
-                    "Mempererat hubungan kekeluargaan antar mahasiswa Informatika."
-                ],
-                "foto": "/images/HIMAFORKA_3.png",
-                "video": "https://www.youtube.com/embed/pFchqZMk82s",
-                "jumlah_vote": 115
-            }
-        ]
-    },
-    {
+        "name": "Fransiska Doranti Ardena",
+        "visi": [
+          "Mewujudkan Senat Mahasiswa FTI UAJY sebagai tempat untuk pengembangan soft skill yang penuh dengan rasa kekeluargaan, dengan menjunjung tinggi 4 pilar Atma Jaya serta Pancasila. "
+        ],
+        "misi": [
+          "Mewujudkan kepengurusan Senat Mahasiswa FTI yang berkualitas.",
+          "Memberikan fasilitas bagi seluruh mahasiswa FTI untuk mengembangkan potensi diri di bidang non-akademik.",
+          "Menjadi jembatan komunikasi, aspirasi, dan meningkatkan solidaritas mahasiswa FTI melalui program kerja Senat Mahasiswa FTI."
+        ],
+        "foto": "/images/SEMA_2.png",
+        "video": "https://www.youtube.com/embed/039KkRgMIl0",
+        "jumlah_vote": 0
+      },
+      {
         "id": 3,
-        "name": "HMTI",
-        "kandidat": [
-            {
-                "id": 1,
-                "name": "Nicholas Arron",
-                "visi": [
-                    "Membangun Himpunan Mahasiswa Teknik Industri yang unggul, Berkarakter, inklusif, dan dapat mengedepankan rasa solidaritas antar sesama Mahasiswa Teknik Industri"
-                ],
-                "misi": [
-                    "Menjadi wadah bagi mahasiswa Teknik industri untuk mengeksplorasi diri, menuangkan kreativitas, dan berinovasi melalui program kerja yang bermanfaat bagi mahasiswa",
-                    "“Menjadi pendengar yang mengayomi dan merealisasikan aspirasi mahasiswa",
-                    "“Membangun rasa persaudaraan antar mahasiswa Teknik industri baik diluar maupun didalam kampus"
-                ],
-                "foto": "/images/HMTI_1.png",
-                "video": "https://www.youtube.com/embed/6H4B7oMhcNE",
-                "jumlah_vote": 91
-            },
-            {
-                "id": 2,
-                "name": "Natalie Richarta",
-                "visi": [
-                    "HMTI yang kontributif, komunikatif, dan solutif dengan berdasar kepada semangat bertanggung jawab dan nilai-nilai keatmajayaan. "
-                ],
-                "misi": [
-                    "Mengutamakan Tuhan dan rasa kemanusiaan dalam menjalankan kehidupan berorganisasi",
-                    "Membangun lingkungan organisasi yang aman, nyaman, dan berkualitas",
-                    "Menjadikan pengurus HMTI sebagai panutan dan pioneer bagi temanteman mahasiswa TI yang aktif, kreatif, dan inovatif",
-                    "Menjadi wadah bagi mahasiswa TI untuk menyampaikan dan merealisasikan aspirasi, serta mengembangkan diri melalui program kerjayang berkualitas"
-                ],
-                "foto": "/images/HMTI_2.png",
-                "video": "https://www.youtube.com/embed/sUndhTVJ23w",
-                "jumlah_vote": 60
-            },
-            {
-                "id": 3,
-                "name": "Janssen Daryl Winata",
-                "visi": [
-                    "menjadikan HImpunan Mahasiswa Teknik Industri UAJY menjadi himpunan yang professional dan memiliki sifat solidaritas serta dapat dijadikan sebagai wadah serta jembatan bagi mahasiswa Teknik Industri untuk menyalurkan minat serta bakat yang ingin mereka kembangakan"
-                ],
-                "misi": [
-                    "mampu meningkatkan kualitas dan pribadi mahasiswa yang lebih unggul di bidang akademik",
-                    "meningkatkan tingkat koordinasi antar anggota agar dapat bekerja secara professional",
-                    "menumbuhkan rasa kekeluargaan didalam keluarga Teknik Industri agar bisa membuat program studi Teknik Industri lebih dikenal oleh kalangan luar."
-                ],
-                "foto": "/images/HMTI_3.png",
-                "video": "https://www.youtube.com/embed/Tr9DWMgyhBI",
-                "jumlah_vote": 26
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "name": "HIMSI",
-        "kandidat": [
-            {
-                "id": 1,
-                "name": "Dien Epril Bangun",
-                "visi": [
-                    "Terwujudnya HIMSI menjadi himpunan yang Berinovasi, Berkarakter Unggul, dan Solid dalam Membangun Mahasiswa yang Berprestasi dan Bertanggung Jawab"
-                ],
-                "misi": [
-                    "Meningkatkan kualitas akademik dan non-akademik mahasiswa melalui program-program yang inovatif dan inspiratif.",
-                    "Membangun hubungan yang harmonis dan saling menguntungkan dengan pihak kampus,alumni, dan stakeholder terkait.",
-                    "Mendorong pengembangan bakat dan minat mahasiswa melalui pengembangan program-program kegiatan yang terintegritas dan berkelanjutan."
-                ],
-                "foto": "/images/HIMSI_1.png",
-                "video": "https://www.youtube.com/embed/BRcUGM-qNPE",
-                "jumlah_vote": 75
-            },
-            {
-                "id": 2,
-                "name": "Dhea Rosenta Adveranda Damanik",
-                "visi": [
-                    "Menjadikan HIMSI sebagai himpunan mahasiswa yang bisa menjadi wadah untuk menumbuhkan kreativitas, kepemimpinan, dan kekeluargaan bagi para mahasiswa SI."
-                ],
-                "misi": [
-                    "Membangun suasana yang positif di dalam organisasi agar setiap anggota merasa nyaman dan terlibat aktif dalam kegiatan.",
-                    "Meningkatkan komunikasi dan partisipasi anggota dalam pengambilan keputusan organisasi.",
-                    "Mendorong kegiatan kreatif dan inovatif untuk meningkatkan keterampilan dan bakat mahasiswa dalam berbagai bidang."
-                ],
-                "foto": "/images/HIMSI_2.png",
-                "video": "https://www.youtube.com/embed/cQggdxZzYvk",
-                "jumlah_vote": 30
-            },
-            {
-                "id": 3,
-                "name": "Andreas Kevin Sulivan",
-                "visi": [
-                    "menciptakan himpunan mahasiswa yang memiliki semangat inisiatif untuk membawa perubahan dalam rangka menghasilkan mahasiswa yang unggul, inklusif, humanis, dan berintegritas; serta menjadi penggerak aspirasi mahasiswa yang berkelanjutan dalam era digitalisasi."
-                ],
-                "misi": [
-                    "mendorong partisipasi aktif mahasiswa dalam kegiatan berorganisasi",
-                    "menyediakan kesempatan bagi mahasiswa untuk mengembangkan kepemimpinan, ketrampilan sosial, dan kemampuan akademik demi terciptanya mahasiswa yang unggul",
-                    "mengadakan kegiatan yang menekankan pada nilai-nilai humanis dan kerohanian",
-                    "menjalin hubungan yang baik dengan pihak internal dan eksternal universitas untuk meningkatkan pengaruh dan dukungan organisasi mahasiswa"
-                ],
-                "foto": "/images/HIMSI_3.png",
-                "video": "https://www.youtube.com/embed/PYR0Q0RiI84",
-                "jumlah_vote": 31
-            }
-        ]
-    }
+        "name": "David Korengkeng",
+        "visi": [
+          "Menjadikan Senat Mahasiswa FTI UAJY sebagai wadah mahasiswa yang aspiratif dengan mengembangkan kemampuan kreatif, produktif, dan bergagasan visioner."
+        ],
+        "misi": [
+          "Mengembangkan potensi dan kualitas mahasiswa melalui kegiatan organisasi yang inspiratif dan penuh tanggun jawab.",
+          "Memberikan mahasiswa ruang untuk beraspirasi dan berpendapat dengan mengedepankan kebabasan yang idealis, landasan yang realistis melalui upaya logis.",
+          "Menyediakan komunitas mahasiswa yang bersifat kekeluargaan dan menjunjung nilai persaudaraan dan solidaritas."
+        ],
+        "foto": "/images/SEMA_3.png",
+        "video": "https://www.youtube.com/embed/cZ12wosqQno",
+        "jumlah_vote": 0
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "HIMAFORKA",
+    "kandidat": [
+      {
+        "id": 1,
+        "name": "Ferrincia Avril",
+        "visi": [
+          "Mengembangkan HIMAFORKA sebagai pembawa perubahan yang positif dan wadah bagi mahasiswa untuk membangun potensi melalui lembaga yang interaktif dengan sinergi untuk berinovasi."
+        ],
+        "misi": [
+          "Membawa perubahan positif dalam bidang akademis maupun moralitas.",
+          "Memperkuat dan mewadahi minat serta potensi mahasiswa informatika melalui program kerja yang efektif dan inovatif.",
+          "Memperluas relasi antar mahasiswa informatika melalui kerjasama dengan berbagai pihak.",
+          "Meningkatkan kekeluargaan dan solidaritas sesama jurusan dan Fakultas Teknologi Industri."
+        ],
+        "foto": "/images/HIMAFORKA_1.png",
+        "video": "https://www.youtube.com/embed/5OeeWseF6P0",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 2,
+        "name": "Ricardus Aluisius Igo A. W.",
+        "visi": [
+          "Membangun HIMAFORKA menjadi wadah dalam mendukung potensi mahasiswa informatika dan memberikan pelayanan akademik yang berfokus pada peningkatan kreativitas pemanfaatan teknologi informasi bagi bibit unggul bangsa."
+        ],
+        "misi": [
+          "Meningkatkan kontribusi dan kualitas pengabdian akademik dengan menyediakan bimbingan intensif, bahan pembelajaran, tentor, dan menciptakan lingkungan akademik yang kondusif.",
+          "Mempertahankan solidaritas dan kualitas kepengurusan HIMAFORKA yang bertanggung jawab dan profesional dalam setiap terlaksananya program kerja.",
+          "Meningkatkan keterlibatan setiap anggota dalam merealisasikan aspirasi mahasiswa informatika melalui pelayanan dan program kerja HIMAFORKA."
+        ],
+        "foto": "/images/HIMAFORKA_2.png",
+        "video": "https://www.youtube.com/embed/TPhH91pvCzg",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 3,
+        "name": "Dionisius Christinus Jan Alvin",
+        "visi": [
+          "HIMAFORKA yang bekerja sama merangkul dan menggenggam erat  aspirasi mahasiswa Informatika."
+        ],
+        "misi": [
+          "Menjaga dan menjalin hubungan dengan pihak internal maupun eksternal demi kerja sama dan komunikasi yang baik.",
+          "Mendorong dan meningkatkan minat mahasiswa terhadap program studi INFORMATIKA melalui acara dan program yang inspiratif dan membantu.",
+          "Terbuka bagi komentar atau masukan yang membangun dari pihak internal maupun eksternal untuk meningkatkan kinerja HIMAFORKA.",
+          "Bekerja dengan sepenuh hati untuk melayani kerja sama baik di HIMAFORKA maupun keluarga FTI."
+        ],
+        "foto": "/images/HIMAFORKA_3.png",
+        "video": "https://www.youtube.com/embed/pFchqZMk82s",
+        "jumlah_vote": 0
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "HMTI",
+    "kandidat": [
+      {
+        "id": 1,
+        "name": "Maria Rosari Zevannya R. B.",
+        "visi": [
+          "Mewujudkan HMTI sebagai wadah untuk mahasiswa menghidupi nilai keatmajayaan serta menjadi pribadi yang komunikatif, berdaya saing, dan terus berinovasi."
+        ],
+        "misi": [
+          "Mengoptimalkan kinerja dan memberi teladan yang baik melalui penerapan nilai keatmajayaan.",
+          "Menumbuhkan sikap solidaritas serta meningkatkan komunikasi bagi seluruh civitas akademika teknik industri UAJY.",
+          "Mengadakan program kerja yang memberi dampak positif bagi perkembangan akademik mahasiswa.",
+          "Menjadi tempat berdiskusi dan menyampaikan aspirasi bagi mahasiswa teknik industri."
+        ],
+        "foto": "/images/HMTI_1.png",
+        "video": "https://www.youtube.com/embed/6H4B7oMhcNE",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 2,
+        "name": "David Jozel Krisnarendita",
+        "visi": [
+          "“HMTI UAJY sebagai wadah guna membangun Teknik Industri UAJY yang komunikatif, berani berkomitmen, dan konsisten."
+        ],
+        "misi": [
+          "“Membangun komunikasi kekeluargaan di dalam civitas akademika Teknik Industri UAJY.",
+          "Mengelola organisasi HMTI UAJY secara profesional untuk memenuhi kebutuhan akademik civitas akademika Teknik Industri UAJY.",
+          "Membangun fondasi pengembangan organisasi HMTI untuk Teknik Industri UAJY yang lebih baik"
+        ],
+        "foto": "/images/HMTI_2.png",
+        "video": "https://www.youtube.com/embed/sUndhTVJ23w",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 3,
+        "name": "Jasephine Sekar Gracella Tifanaputri",
+        "visi": [
+          "Menjadikan HMTI UAJY sebagai organisasi yang adaptif, responsif dan berintegritas dengan mengutamakan nilai solidaritas melalui pengembangan potensi mahasiswa."
+        ],
+        "misi": [
+          "Menciptakan hubungan yang interaktif dan sinergis antara pihak internal maupun eksternal UAJY dengan menjunjung tinggi nilai kekeluargaan.",
+          "Menjadi wadah yang selalu mendukung perkembangan dan cita-cita mahasiswa.",
+          "Melaksanakan program kerja yang bermanfaat bagi pengembangan potensi dan sesuai dengan harapan mahasiswa."
+        ],
+        "foto": "/images/HMTI_3.png",
+        "video": "https://www.youtube.com/embed/Tr9DWMgyhBI",
+        "jumlah_vote": 0
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "HIMSI",
+    "kandidat": [
+      {
+        "id": 1,
+        "name": "Sion Felix Saragih",
+        "visi": [
+          "Mewujudkan HIMSI organisasi yang berintegritas, inovatif, kreatif juga menjadi wadah bagi mahasiswa SI dalam menyalurkan aspirasi guna menghasilkan mahasiswa yang unggul dalam bidang teknologi informasi yang berlandaskan Empat Pilar Keatmajayaan."
+        ],
+        "misi": [
+          "Menciptakan dan meningkatkan rasa solidaritas antar Mahasiswa SI dan Organisasi.",
+          "Menerapkan prinsip komunikatif dan solutif dalam menyediakan wadah untuk menampung dan menyuarakan aspirasi Mahasiswa SI.",
+          "Menjalankan program kerja yang bermanfaat dan sesuai dengan tujuan keilmuan Sistem Informasi yang memberikan kontribusi bagi seluruh Civitas Akademika UAJY dan Masyarakat."
+        ],
+        "foto": "/images/HIMSI_1.png",
+        "video": "https://www.youtube.com/embed/BRcUGM-qNPE",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 2,
+        "name": "Evi Novita Gultom",
+        "visi": [
+          "Menjadikan HIMSI sebagai himpunan mahasiswa yang unggul, berintegritas, humanis dan menjadi wadah untuk mengembangkan kreativitas, jiwa kepemimpinan, dan berkontribusi pada masyarakat."
+        ],
+        "misi": [
+          "Melibatkan mahasiswa untuk berperan aktif dalam organisasi.",
+          "Menyelenggarakan kegiatan yang melibatkan kreativitas dan inovasiuntuk meningkatkan kualitas program studi SI.",
+          "Menyelenggarakan kegiatan pengabdian ke masyarakat untuk meningkatkan pemahaman tentang Sistem Informasi."
+        ],
+        "foto": "/images/HIMSI_2.png",
+        "video": "https://www.youtube.com/embed/cQggdxZzYvk",
+        "jumlah_vote": 0
+      },
+      {
+        "id": 3,
+        "name": "Sandi Witjaksono Tiranda",
+        "visi": [
+          "Menciptakan HIMSI sebagai wadah yang inspiratif, menjadi panggung bagi mahasiswa untuk mengembangkan inovasi dan ide-ide kreatif, serta mengukuhkan ikatan solidaritas sebagai satu Sistem Informasi."
+        ],
+        "misi": [
+          "Menyediakan wadah dan sumber daya yang diperlukan bagi mahasiswa sistem informasi untuk mengembangkan kemampuan dalam teknologi informasi.",
+          "Memperkuat ikatan keluarga Sistem Informasi melalui dukungan komunitas mahasiswa, kolaborasi proyek, dan kegiatan sosial.",
+          "Membangun dinamika kompetitif yang positif untuk meningkatkan eksistensi Program Studi Sistem Informasi hingga ke tingkat nasional. "
+        ],
+        "foto": "/images/HIMSI_3.png",
+        "video": "https://www.youtube.com/embed/PYR0Q0RiI84",
+        "jumlah_vote": 0
+      }
+    ]
+  }
 ]

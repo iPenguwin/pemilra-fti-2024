@@ -82,7 +82,7 @@ const Organisasi = () => {
                                 <div className="card card-side flex flex-col items-center justify-center gap-4 bg-base-200 p-8 shadow-xl">
                                     <h2 className="card-title text-center text-4xl">{k.name}</h2>
                                     <img
-                                        className="aspect-square h-64 w-64 rounded-full bg-primary bg-cover bg-center p-2"
+                                        className="aspect-square h-64 w-64 rounded-3xl bg-primary bg-cover bg-center p-2"
                                         src={k.foto}
                                         alt={k.name}
                                     />

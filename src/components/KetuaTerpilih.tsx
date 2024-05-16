@@ -80,7 +80,7 @@ const KetuaTerpilih = () => {
                                             className="card flex w-full flex-col items-center justify-center gap-4 bg-base-300 p-8 border-2 border-[#fb8500]"
                                         >
                                             <img
-                                                className="aspect-square h-48 w-48 rounded-full bg-primary bg-center p-2"
+                                                className="aspect-square h-48 w-48 rounded-2xl bg-primary bg-center p-2"
                                                 src={k.foto}
                                                 alt={k.name}
                                             />
@@ -111,7 +111,7 @@ const KetuaTerpilih = () => {
                                             className="card flex w-full flex-col items-center justify-center gap-4 bg-base-300 p-8"
                                         >
                                             <img
-                                                className="aspect-square h-48 w-48 rounded-full bg-primary bg-center p-2"
+                                                className="aspect-square h-48 w-48 rounded-2xl bg-primary bg-center p-2"
                                                 src={k.foto}
                                                 alt={k.name}
                                             />
